@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Larry Kernel (LOS 22.2) for OnePlus Nord CE 3 Lite 5G (KSUN) by Enigma550
+kernel.string=Larry Kernel (LOS 22.2) for OnePlus Nord CE 3 Lite 5G (KSUN & SUSFS) by Enigma550
 do.devicecheck=1
 do.modules=0
 do.systemless=0
@@ -32,7 +32,7 @@ ui_print " "
 ui_print "-> Checking kernel compatibility..."
 
 if cat /proc/version | grep "Linux version 5.4" | grep -q "qgki"; then
-  ui_print "-> Check passed. KSUN supported."
+  ui_print "-> Check passed. KSUN & SUSFS supported."
 else
   abort "-> Error: Target must be a 5.4 QGKI kernel."
 fi
