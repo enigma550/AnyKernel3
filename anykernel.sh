@@ -4,13 +4,13 @@
 ### AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Larry Kernel (LOS 22.2) for OnePlus Nord CE 3 Lite 5G (KSUN & SUSFS) by Enigma550
+kernel.string=Larry Kernel (LOS 23.2) for OnePlus Nord CE 3 Lite 5G (KSUN & SUSFS)
 do.devicecheck=1
 do.modules=0
 do.systemless=0
 do.cleanup=1
 do.cleanuponabort=0
-support.versions=15,22.2
+support.versions=16,23.2
 device.name1=larry
 device.name2=OP5958L1
 '; } # end properties
